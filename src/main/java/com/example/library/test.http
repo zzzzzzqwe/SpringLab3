@@ -1,10 +1,6 @@
-POST http://localhost:8080/books
+PUT http://localhost:8080/publishers/2
 Content-Type: application/json
 
 {
-  "title": "Война и мир",
-  "authorId": 1,
-  "publisherId": 1,
-  "categoryIds": [1],
-  "libraryIds": [1]
+  "name": "CHANGED NAME"
 }
