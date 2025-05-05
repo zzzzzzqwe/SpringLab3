@@ -1,0 +1,10 @@
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "title": "Война и мир",
+  "authorId": 1,
+  "publisherId": 1,
+  "categoryIds": [1],
+  "libraryIds": [1]
+}
